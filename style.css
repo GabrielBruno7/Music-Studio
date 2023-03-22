@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Noto+Sans:wght@400;700&family=Righteous&display=swap');
+
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+
+
+
+body {
+
+    display: flex;
+    flex-direction: column;
+    background-color: #313638;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #F8F109;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 400'%3E%3Cdefs%3E%3CradialGradient id='a' cx='396' cy='281' r='514' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23050500'/%3E%3Cstop offset='1' stop-color='%23F8F109'/%3E%3C/radialGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='400' y1='148' x2='400' y2='333'%3E%3Cstop offset='0' stop-color='%23B17928' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23B17928' stop-opacity='0.5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='800' height='400'/%3E%3Cg fill-opacity='0.4'%3E%3Ccircle fill='url(%23b)' cx='267.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='532.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='400' cy='30' r='300'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container-principal {
+
+    border-radius: 50px;
+    background-color: rgb(34, 26, 20);
+    padding: 30px;
+    width: 600px;
+    height: 630px;
+
+
+}
+
+.container-logo {
+    border-radius: 30px;
+    background-color: #E4B363;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.container-logo:hover {
+    border: 4px rgb(255, 255, 255) solid;
+    transition: border 0.3s ease;
+}
+
+
+
+
+
+.container-login {
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    left: 50%;
+    bottom: 140px;
+    background-color: #E4B363;
+    width: 50%;
+    height: 445px;
+    bottom: 460px;
+    margin-top: 15px;
+}
+
+.container-login:hover {
+    border: 4px rgb(255, 255, 255) solid;
+    transition: border 0.3s ease;
+}
+
+.titulo-login {
+
+    font-family: 'Righteous', cursive;
+    border-radius: 10px;
+}
+
+.user-senha {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input-btn {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.label-letra {
+    font-family: 'Righteous', cursive;
+}
+
+.esqueceu-senha a {
+
+    position: relative;
+    left: 45px;
+    bottom: 37px;
+    text-decoration: none;
+
+}
+
+.registrar-se a {
+    background: white;
+    font-size: small;
+    position: relative;
+}
+
+.btn-login {
+    position: relative;
+    bottom: 30px;
+    padding: 5px;
+    width: 100px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 50px;
+    background-color: white;
+    border: none;
+
+
+}
+
+.btn-login:hover {
+
+    border: 1px solid black;
+
+}
+
+.registrar-se {
+
+    background-color: wheat;
+    border-radius: 20px;
+    width: 250px;
+    height: 40px;
+    position: relative;
+    top: 50px;
+
+}
+
+
+
+
+.container-menu {
+    position: relative;
+    border-radius: 30px;
+    background: none;
+    width: 46%;
+    height: 440px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h2 {
+
+    background-color: #E4B363;
+    height: 60px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 10px;
+    height: 40px;
+    border: 4px rgb(255, 255, 255) solid;
+    font-family: 'Righteous', cursive;
+}
+
+li {
+    position: relative;
+    right: 70px;
+    width: 276px;
+    background-color: #E4B363;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 27px;
+    height: 40px;
+    list-style: none;
+    margin: 30px;
+    font-family: 'Righteous', cursive;
+
+}
+
+li:hover {
+    cursor: pointer;
+    border: 4px rgb(255, 255, 255) solid;
+    transition: border 0.3s ease;
+    font-weight: BOLD;
+    color: rgb(255, 255, 255);
+}
+
+.footer {
+    position: relative;
+    left: 30px;
+    background: rgb(255, 255, 255);
+    margin-top: 10px;
+    border-radius: 20px;
+    width: 600px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.footer-text {
+
+    position: relative;
+    top: 5px;
+    font-style: italic;
+
+
+
+}
+
+
+p {
+    font-weight: bold;
+    font-size: larger;
+    color: rgb(0, 0, 0);
+    position: relative;
+    left: 57px;
+    bottom: 10px;
+    font-family: 'Righteous', cursive;
+}
+
+.regist {
+
+    background: rgb(255, 255, 255);
+    position: relative;
+    padding: 5px 30px 5px 30px;
+    border-radius: 20px;
+    top: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Righteous', cursive;
+
+}
+
+.regist:hover {
+    border: 2px solid black;
+
+
+
+}
+
+.modal-container {
+    display: none;
+    background-color: #E4B363;
+    border-radius: 50px;
+    position: fixed;
+    width: 900px;
+    height: 700px;
+    
+
+
+}
+
+.modal-texto {
+
+    position: relative;
+    font-weight: 100;
+    left: 400px;
+    font-size: 10px;
+}
+
+.imagem-violao {
+
+    position: relative;
+    right: 500px;
+}
+
+
+
+
+.titulo-aula-violao {
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    color: #E4B363;
+    font-size: 30px;
+    background-color: white;
+    position: relative;
+    left: 31px;
+    top: 10px;
+    border: 4px solid black;
+}
+
+
+
+.paragrafo {
+    width: 400px;
+    font-size: 180%;
+    word-spacing: 5px;
+    position: relative;
+    left: 40px;
+    bottom: 70px;
+    z-index: 2;
+    top: 50px;
+    padding: 0px 0px;
+
+}
+
+#cntr-main {
+    display: block;
+}
+
+
+
+.container-textin {
+
+    background: white;
+    width: 460px;
+    height: 480px;
+    border-radius: 30px;
+    position: fixed;
+    top: 260px;
+    z-index: 1;
+    border: 4px solid black;
+
+
+
+}
+
+.btn-compra {
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: 100px;
+    left: 180px;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+}
+
+.btn-compra:hover,.btn-compra:focus {
+    cursor: pointer;
+    border: 2px solid black;
+    font-weight: 700;
+
+}
+
